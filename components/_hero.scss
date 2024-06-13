@@ -1,0 +1,128 @@
+.hero {
+  background: url(../assets/img/hero-screen.png) center;
+  background-size: cover;
+  height: 1045px;
+  color: #fff;
+  //   position: relative;
+
+  .hero__panel {
+    background: #333333bf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(270deg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    .hero__links {
+      display: flex;
+      gap: 30px;
+    }
+    .panel__line {
+      border: 3px solid #c4c4c4;
+      width: 80px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    p {
+      color: #c4c4c4;
+      font-size: 18px;
+    }
+  }
+  &__content {
+    display: flex;
+    gap: 125px;
+    .hero__text {
+      width: 540px;
+      padding-top: 384px;
+
+      h1 {
+        font-family: "Open Sans Condensed";
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        font-size: 64px;
+        text-transform: uppercase;
+      }
+      p {
+        max-width: 540px;
+        margin: 0;
+        margin-top: 50px;
+      }
+      button {
+        font-family: "Open Sans Condensed";
+        letter-spacing: 0.1em;
+        width: 160px;
+        height: 50px;
+        background-color: #d1a954;
+        border: none;
+        color: #fff;
+        margin-top: 49px;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Slideshow container */
+    .slideshow-container {
+      max-width: 340px;
+      position: relative;
+      margin: auto;
+    }
+    
+    /* Hide the images by default */
+    .mySlides {
+      display: none;
+    }
+    
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 500px;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: #000;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+      display: flex;
+      gap: 25px;
+      p {
+        color: #fff;
+      }
+    }
+    
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .prev {
+      display: flex;
+      gap: 25px;
+      p {
+        color: #fff;
+      }
+    }
+    
+
+
+
+  }
+}

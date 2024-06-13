@@ -1,0 +1,60 @@
+.projects {
+  margin-top: 150px;
+  &__content {
+    max-width: 1770px;
+    margin: 0 auto;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: "Open Sans Condensed", sans-serif;
+      font-size: 48px;
+      font-weight: 300;
+    }
+
+    .projects__item {
+      margin-top: 100px;
+      position: relative;
+
+      h3 {
+        position: absolute;
+        font-family: "Open Sans Condensed";
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+        top: 40px;
+        left: 40px;
+      }
+      p {
+        position: absolute;
+        font-family: "Open Sans Condensed";
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.1em;
+        transform: rotate(270deg);
+        top: 437px;
+        left: -14px;
+      }
+      .eclipse {
+        position: absolute;
+        background-color: #d1a954;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        left: 171px;
+        top: 225px;
+        border: none;
+      }
+      .eclipse img {
+        position: absolute;
+        top: 35px;
+        left: 35px;
+      }
+    }
+}
+}

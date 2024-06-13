@@ -1,0 +1,13 @@
+.footer{
+    &__content{
+        border-top: 1px solid #565656;
+        color: #989898;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0;
+        margin-top: 80px;
+        p{
+            margin: 0;
+        }
+    }
+}

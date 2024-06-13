@@ -1,0 +1,86 @@
+.contacts {
+  margin-top: 150px;
+  font-family: "Open Sans Condensed";
+  h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__content {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+
+    ul {
+        
+      list-style: none;
+      max-width: 255px;
+      padding: 0;
+      li {
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 0.05em;
+        margin-bottom: 25px;
+        text-transform: uppercase;
+      }
+    }
+    .contacts__inner {
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      max-width: 730px;
+      height: 190px;
+      input {
+        background: #444444;
+        font-size: 12px;
+        padding-right: 0;
+        width: 180px;
+        height: 35px;
+        box-sizing: border-box;
+        border: 1px solid #616161;
+        
+      }
+      textarea{
+        background: #444444;
+        font-size: 12px;
+        padding-right: 0;
+        width: 180px;
+        height: 35px;
+        box-sizing: border-box;
+        border: 1px solid #616161;
+        color: #989898;
+      }
+      #sms {
+        height: 100px;
+      }
+
+      input::placeholder {
+        color: #989898;
+      }
+      p {
+        color: #989898;
+        font-size: 12px;
+        font-family: "Open Sans";
+        line-height: 18px;
+        max-width: 390px;
+        margin: 0;
+      }
+      button {
+        background-color: #d1a954;
+        font-family: "Open Sans Condensed";
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        font-size: 18px;
+        width: 190px;
+        height: 50px;
+      }
+    }
+  }
+}

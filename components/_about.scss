@@ -1,0 +1,50 @@
+.about {
+  margin-top: 150px;
+  &__content {
+    h3 {
+      font-family: "Open Sans Condensed";
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      font-size: 21px;
+      text-transform: uppercase;
+
+
+    }
+    color: #fff;
+    h2 {
+      text-align: center;
+      font-family: "Open Sans Condensed";
+      letter-spacing: 0.1em;
+      font-size: 48px;
+      font-weight: 300;
+      margin-bottom: 100px;
+      text-transform: uppercase;
+    }
+    .about__inner {
+      display: flex;
+      gap: 30px;
+    }
+    .about__text {
+      width: 445px;
+      p {
+        margin-top: 40px;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+    .about__numbers{
+        width: 255px;
+    }
+    .about__box {
+      margin-top: 40px;
+      margin-bottom: 25px;
+      p {
+        font-family: "Open Sans Condensed";
+        letter-spacing: 0.1em;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 15px;
+      }
+    }
+  }
+}
