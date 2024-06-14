@@ -376,7 +376,7 @@ span {
   list-style: none;
 }
 .projects .swiper-wrapper {
-  width: 1700px;
+  width: 1110px;
   overflow: hidden;
 }
 @media screen and (max-width: 1024px) {
