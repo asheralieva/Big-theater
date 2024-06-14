@@ -10,6 +10,8 @@
     text-align: center;
   }
   &__content {
+    padding: 0 33px;
+
     margin-top: 100px;
     display: flex;
     justify-content: center;
@@ -82,5 +84,34 @@
         height: 50px;
       }
     }
+  }
+}
+@media screen and (max-width: 425px) {
+  .contacts {
+
+    &__content {
+      padding: 0 33px;
+      display: flex;
+      flex-direction: column-reverse; 
+    }
+    .contacts__inner {
+      // max-width: 100%;
+      // height: auto; 
+      order: -1;
+    }
+    .contacts__list {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Два столбца */
+      gap: 15px; /* Промежуток между колонками */
+      
+      ul{
+        margin-top: 250px;
+        li{
+          flex: 1 0 50%; 
+        }
+      }
+    }
+
+    
   }
 }

@@ -1,5 +1,6 @@
 .projects {
   margin-top: 150px;
+
   &__content {
     max-width: 1770px;
     margin: 0 auto;
@@ -7,8 +8,9 @@
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
+    align-items: center; // Center content horizontally
+    justify-content: center; // Center content vertically
+
     h2 {
       text-align: center;
       text-transform: uppercase;
@@ -30,6 +32,7 @@
         top: 40px;
         left: 40px;
       }
+
       p {
         position: absolute;
         font-family: "Open Sans Condensed";
@@ -40,6 +43,7 @@
         top: 437px;
         left: -14px;
       }
+
       .eclipse {
         position: absolute;
         background-color: #d1a954;
@@ -49,12 +53,29 @@
         left: 171px;
         top: 225px;
         border: none;
-      }
-      .eclipse img {
-        position: absolute;
-        top: 35px;
-        left: 35px;
+
+        img {
+          position: absolute;
+          top: 35px;
+          left: 35px;
+        }
       }
     }
-}
+  }
+
+  .ul_swiper_wrapper {
+    display: flex;
+    list-style: none;
+  }
+
+  .swiper-wrapper {
+    width: 1700px;
+    overflow: hidden;
+    @media screen and (max-width: 1024px){
+      width: 690px;
+    }
+    @media screen and (max-width: 425px){
+      width: 420px;
+    }
+  }
 }

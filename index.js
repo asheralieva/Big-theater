@@ -1,12 +1,12 @@
-var swiper = new Swiper(".mySwiper", {
+// var swiper = new Swiper(".mySwiper", {
 
-    loop: true,
-    slidesPerView: 4,
-    freeMode: true,
-    mousewheel: {
-        invert: false,
-    },
-});
+//     loop: true,
+//     slidesPerView: 4,
+//     freeMode: true,
+//     mousewheel: {
+//         invert: false,
+//     },
+// });
 
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -34,7 +34,6 @@ function showSlides(n) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
 }
 
 

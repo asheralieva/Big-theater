@@ -1,9 +1,9 @@
 .rating {
-    margin-top: 150px;
-    background: url("../assets/img/rating-bg.png") center;
-    background-size:cover ;
-    padding-top:    126px;
-    padding-bottom: 126px;
+  margin-top: 150px;
+  background: url("../assets/img/rating-bg.png") center;
+  background-size: cover;
+  padding-top: 126px;
+  padding-bottom: 126px;
   &__content {
     display: flex;
     justify-content: center;
@@ -32,5 +32,30 @@
     font-family: "Open Sans Condensed";
     font-size: 72px;
     letter-spacing: 0.1em;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .rating {
+    &__content {
+      gap: 0;
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .rating {
+    &__content{
+      padding: 0 33px;
+     .stars{
+      height: 180px;
+      img{
+        margin-left: 5px;
+      }
+      p{
+        font-size: 15px;
+        margin-left: 5px;
+      }
+     }
+    }
   }
 }

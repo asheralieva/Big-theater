@@ -1,0 +1,48 @@
+.projects{
+  &__content{
+    padding: 0 33px;
+  }
+}
+
+h2 {
+  margin-top: 150px;
+  font-family: "Open Sans Condensed";
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.gaz_wrapper {
+  margin-top: 100px;
+  width: 1110px;
+  overflow: hidden;
+  @media screen and (max-width: 768px) {
+    width: 690px;
+  }
+  @media screen and (max-width: 425px) {
+    width: 410px;
+  }
+}
+
+.ul_gaz_item_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1034px;
+}
+
+.gaz_item {
+  height: 96px;
+  width: 258px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 78px;
+  margin-bottom: 80px;
+}
+
+.li_gaz_item {
+  list-style: none;
+}

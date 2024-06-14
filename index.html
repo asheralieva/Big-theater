@@ -9,6 +9,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="./css/index.css" />
+
+    <script src="./projects.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -21,6 +23,7 @@
             <p>партнеры театра</p>
             <p>контакты</p>
           </div>
+          <img class="burger" src="./assets/icons/burger.svg" alt="" />
           <div class="phone">
             <p>+7 495 123-45-67</p>
             <div class="line"></div>
@@ -88,13 +91,15 @@
 
             <div class="about__numbers">
               <h3>немного о цифрах</h3>
-              <div class="about__box">
-                <img src="./assets/icons/armchair .svg" alt="" />
-                <p><span>1600 </span>посадочных мест</p>
-              </div>
-              <div class="about__box">
-                <img src="./assets/icons/theater.svg" alt="" />
-                <p><span>350</span> лет истории</p>
+              <div class="boxes">
+                <div class="about__box">
+                  <img src="./assets/icons/armchair .svg" alt="" />
+                  <p><span>1600 </span>посадочных мест</p>
+                </div>
+                <div class="about__box">
+                  <img src="./assets/icons/theater.svg" alt="" />
+                  <p><span>350</span> лет истории</p>
+                </div>
               </div>
             </div>
 
@@ -111,36 +116,48 @@
         <h2><span>наши </span>постановки</h2>
         <div class="swiper mySwiper">
           <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="projects__item">
-                <h3>ОСКАР 2020</h3>
-                <p>сентябрь 2020</p>
-                <img src="./assets/img/oskar.png" alt="" />
-              </div>
-            </div>
+            <ul class="ul_swiper_wrapper">
+              <li class="li_swiper_item">
+                <div class="swiper-slide">
+                  <div class="projects__item">
+                    <h3>ОСКАР 2020</h3>
+                    <p>сентябрь 2020</p>
+                    <img src="./assets/img/oskar.png" alt="" />
+                  </div>
+                </div>
+              </li>
 
-            <div class="swiper-slide">
-              <div class="projects__item">
-                <button class="eclipse">
-                  <img src="./assets/icons/search.svg" alt="" />
-                </button>
-                <img src="./assets/img/projects-active.png" alt="" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="projects__item">
-                <h3>золотой грамофон</h3>
-                <p>июль 2020</p>
-                <img src="./assets/img/projects-gold.png" alt="" />
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="projects__item">
-                <h3>щелкунчик</h3>
-                <p>май 2020</p>
-                <img src="./assets/img/projects-may.png" alt="" />
-              </div>
-            </div>
+              <li class="li_swiper_item">
+                <div class="swiper-slide">
+                  <div class="projects__item">
+                    <button class="eclipse">
+                      <img src="./assets/icons/search.svg" alt="" />
+                    </button>
+                    <img src="./assets/img/projects-active.png" alt="" />
+                  </div>
+                </div>
+              </li>
+
+              <li class="li_swiper_item">
+                <div class="swiper-slide">
+                  <div class="projects__item">
+                    <h3>золотой грамофон</h3>
+                    <p>июль 2020</p>
+                    <img src="./assets/img/projects-gold.png" alt="" />
+                  </div>
+                </div>
+              </li>
+
+              <li class="li_swiper_item">
+                <div class="swiper-slide">
+                  <div class="projects__item">
+                    <h3>щелкунчик</h3>
+                    <p>май 2020</p>
+                    <img src="./assets/img/projects-may.png" alt="" />
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -163,35 +180,71 @@
     </section>
 
     <!-- no -->
-    <!-- <section class="partners">
+    <section class="partners">
       <div class="container">
         <div class="partners__content">
           <h2><span>партнеры </span>театра</h2>
-          <div class="swiper myPartnersSwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img src="./assets/img/partners-logo.png" alt="gazprom" />
-                <img src="./assets/img/partners-logo.png" alt="gazprom" />
-                <img src="./assets/img/partners-logo.png" alt="gazprom" />
-                <img src="./assets/img/partners-logo.png" alt="gazprom" />
-              </div>
-            </div>
-          </div>
+        <div class="gaz_wrapper">
+            <ul class="ul_gaz_item_wrapper">
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+              <li class="li_gaz_item">
+                <div class="gaz_item">
+                  <img src="./assets/img/partners-logo.png" alt="" />
+                </div>
+              </li>
+            </ul>
+        </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- надо сделать сообщение -->
     <section class="contacts">
       <div class="container">
         <h2><span>стать </span>меценатом</h2>
         <div class="contacts__content">
-            <ul>
-              <li>+7 (812) 123-45-55</li>
-              <li>+7 (812) 123-45-66</li>
-              <li>info@theater.ru</li>
-              <li>г. санкт-петербург, невский 140</li>
-            </ul>
+
+          
+          <ul>
+            <li>+7 (812) 123-45-55</li>
+            <li>+7 (812) 123-45-66</li>
+            <li>info@theater.ru</li>
+            <li>г. санкт-петербург, невский 140</li>
+          </ul>
           <div class="contacts__inner">
             <input type="text" placeholder="Имя" />
             <input type="text" placeholder="Компания" />
@@ -199,9 +252,12 @@
             <input type="text" placeholder="Телефон" />
             <input type="text" placeholder="E-mail" />
 
-            <p>* Ваши данные не будут переданы третьим лицам, 100% вероятность.
+            <p>
+              * Ваши данные не будут переданы третьим лицам, 100% вероятность.
               Конфиденциальность мы гарантируем, и защищаем персональные данные
-              согласно законку ФЗ-52.</p>
+              согласно законку ФЗ-52.
+            </p>
+            
             <button>отправить</button>
           </div>
         </div>
@@ -220,6 +276,7 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./index.js"></script>
+    <script src="./projects.js"></script>
     <script src="./partners.js"></script>
   </body>
 </html>

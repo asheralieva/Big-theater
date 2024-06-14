@@ -7,8 +7,6 @@
       font-weight: 700;
       font-size: 21px;
       text-transform: uppercase;
-
-
     }
     color: #fff;
     h2 {
@@ -32,8 +30,8 @@
         line-height: 21px;
       }
     }
-    .about__numbers{
-        width: 255px;
+    .about__numbers {
+      width: 255px;
     }
     .about__box {
       margin-top: 40px;
@@ -44,6 +42,49 @@
         font-size: 16px;
         font-weight: 700;
         margin-top: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .about {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .about__img {
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) {
+  .about {
+    &__content {
+      padding: 0 33px;
+      .about__text {
+        width: 415px;
+        text-align: center;
+      }
+      .about__numbers {
+        width: 415px;
+        h3 {
+          text-align: center;
+        }
+      }
+      .boxes {
+        display: flex;
+        justify-content: space-between;
+      }
+      .about__box {
+        width: fit-content;
+        p {
+          margin: 0;
+        }
+      }
+      .about__inner {
+        flex-wrap: wrap;
       }
     }
   }
